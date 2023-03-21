@@ -78,7 +78,8 @@ if __name__ == '__main__':
 
     ser = serial.Serial(
             ##jwc o port='/dev/ttyACM0',
-            port='COM3',
+            ##jwc o port='COM3',
+            port='/dev/ttyACM0',
             baudrate = 115200,
             parity=serial.PARITY_NONE,
             stopbits=serial.STOPBITS_ONE,
